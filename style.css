@@ -314,7 +314,7 @@ main {
   transform: translate(-50%, -50%);
   z-index: 2;
 }
-#slider img {
+#slider .cangu {
   width: 50%;
   max-width: 50%;
   transform: translate(50%, -110%);
@@ -482,5 +482,12 @@ main {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-decoration: none;
+}
+.ring{
+  width: 80%;
+  max-width: 80%;
+  transform: translate(40%, -110%);
+  position: relative;
+  z-index: 3;
 }
 
