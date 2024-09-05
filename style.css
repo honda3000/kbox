@@ -223,16 +223,16 @@ header .inner {
 }
 header .logo {
   display: block;
-  width: 76px;
-  height: 90px;
+  width: 25%;
+  height: 25%;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: white;
+  
   text-align: center;
 }
 header .logo img {
-  width: 45px;
+  width: 70%;
   margin-top: 10px;
 }
 header nav {
@@ -474,5 +474,13 @@ main {
     opacity: 1;
     transform: scale3d(0.5, 0.5, 1);
   }
+}
+.road{
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
 }
 
