@@ -47,11 +47,7 @@ const displacementSlider = function (opts) {
 
   let renderW, renderH;
 
-  if (renderWidth > canvasWidth) {
-    renderW = renderWidth;
-  } else {
-    renderW = canvasWidth;
-  }
+  
 
   renderH = canvasHeight;
 
